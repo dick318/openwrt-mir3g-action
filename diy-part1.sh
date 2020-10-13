@@ -15,3 +15,11 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+
+svn co  https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr package/luci-theme-argon-lr
+svn co  https://github.com/liuran001/openwrt-packages/trunk/luci-app-koolproxyR package/luci-app-koolproxyR
+svn co  https://github.com/liuran001/openwrt-packages/trunk/luci-app-vssr-plus package/luci-app-vssr-plus
+svn co  https://github.com/liuran001/openwrt-packages/trunk/luci-app-passwall-plus package/luci-app-passwall-plus
+svn co  https://github.com/liuran001/openwrt-packages/trunk/luci-theme-ifit package/luci-theme-ifit
+svn co  https://github.com/liuran001/openwrt-packages/trunk/openwrt-udpspeeder package/udpspeeder
